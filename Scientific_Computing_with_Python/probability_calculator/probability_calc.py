@@ -60,9 +60,3 @@ def experiment(hat, expected_balls, num_balls_drawn, num_experiments):
 
     return success_events / num_experiments
 
-
-hat1 = Hat(blue=3, red=2, green=6)
-
-# print(experiment(hat1, {"yellow": 2, "blue": 3, "test": 1}, 20, 100))
-
-print(experiment(hat1, {"blue": 2, "green": 1}, 4, 1000))
